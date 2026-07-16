@@ -108,10 +108,9 @@
 
 <div align="center">
 
-| 📜 History | 🏀 Basketball | 🏎️ Racing |
+| <h1>📜</h1> **History** | <h1>🏀</h1> **Basketball** | <h1>🏎️</h1> **Racing** |
 |:---:|:---:|:---:|
-| <img width="80" src="https://img.icons8.com/color/96/ancient-scroll.png"/> | <img width="80" src="https://img.icons8.com/color/96/basketball.png"/> | <img width="80" src="https://img.icons8.com/color/96/racing-flag.png"/> |
-| *"History doesn't repeat, but it rhymes."* | Teamwork & precision, on and off the court. | Speed, engineering, adrenaline — the ultimate pursuit. |
+| *"History doesn't repeat,<br>but it rhymes."* | Teamwork & precision,<br>on and off the court. | Speed, engineering,<br>adrenaline — the ultimate pursuit. |
 
 </div>
 
