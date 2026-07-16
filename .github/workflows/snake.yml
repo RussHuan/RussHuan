@@ -1,10 +1,14 @@
 name: Generate Snake Animation
 
+# 触发条件
 on:
+  # 每日零点自动执行
   schedule:
     - cron: "0 0 * * *"
+  # 支持手动在仓库 Action 页面触发
   workflow_dispatch:
 
+# 仓库权限配置
 permissions:
   contents: write
 
@@ -14,10 +18,12 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Checkout
+      # 拉取仓库代码
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate contribution snake
+      # 生成贡献贪吃蛇 SVG 图（浅色/深色两套）
+      - name: Generate contribution snake svg
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -25,7 +31,8 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Deploy to output branch
+      # 将生成文件推送至 output 独立分支
+      - name: Deploy snake svg to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
