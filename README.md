@@ -8,7 +8,7 @@
 
 <p>
   <a href="https://github.com/RussHuan"><img src="https://img.shields.io/badge/GitHub-RussHuan-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="mailto:your-email@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:russhuan@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <img src="https://komarev.com/ghpvc/?username=RussHuan&style=for-the-badge&color=0891b2&label=Profile+Views" />
 </p>
 
